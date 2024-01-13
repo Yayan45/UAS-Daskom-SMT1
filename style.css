@@ -1,0 +1,102 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    background-color:whitesmoke;
+}
+
+.navbar{
+    background-color: #600080;
+    color:#fff ;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(11, 145, 255);
+}
+.navbar-brand:hover{
+    color: rgb(11, 145, 255);
+    
+}
+.nav-link:hover{
+    color: rgb(11, 145, 255);
+    
+}
+.hero{
+    margin-top: 50px;
+}
+.btn-home{
+    background-color: #600080;
+    color: white;
+}
+.btn-home:hover{
+    background-color: rgb(11, 145, 255);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #600080;
+}
+
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #600080;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+span{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(11, 145, 255);
+}
+
+.text-about p{
+    text-align: justify;
+}
+.sosial{
+ cursor: pointer;
+}
+
+/* jam dan tanggal */
+.jam_digital{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px 2em;
+    border-radius: 15px;
+    color: #600080;
+}
+.kotak p{
+    text-align: center;
+    padding: 3px;
+}
+.caption{
+    font-size: 14px;
+    margin-top:-30px;
+    margin-bottom: 0;
+}
